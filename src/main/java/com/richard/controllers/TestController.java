@@ -27,7 +27,7 @@ public class TestController {
 
     @RequestMapping("/")
     public String index(){
-        return "Greetings from Spring boot!";
+        return "Greetings from Spring boot!!";
     }
 
     @RequestMapping(value = "/postauth",method = RequestMethod.POST)
