@@ -25,7 +25,7 @@ import static org.springframework.http.HttpStatus.CREATED;
 public class TestController {
 
 
-    @RequestMapping("/")
+    @RequestMapping("/greeting")
     public String index(){
         return "Greetings from Spring boot!!!!";
     }
