@@ -14,7 +14,7 @@ import java.net.URISyntaxException;
 import java.util.UUID;
 
 import static com.richard.helpers.LinkHelper.linkDirectlyTo;
-import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;
+
 import static org.springframework.http.HttpStatus.CREATED;
 
 /**
